@@ -1,0 +1,6 @@
+@dotnet_crosscompilation_HostAddress = http://localhost:5016
+
+GET {{dotnet_crosscompilation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
